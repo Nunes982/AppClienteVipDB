@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:orientation="vertical"
+    tools:context=".view.ClientePessoaJuridicaActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView android:id="@+id/txtAppName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="16dp"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView android:id="@+id/txtPessoaJuridica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="16dp"
+            android:text="@string/txtPessoaJuridica"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView android:id="@+id/txtCNPJ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/txtCNPJ"
+            android:textColor="@color/green" />
+
+        <EditText android:id="@+id/editCNPJ"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:ems="10"
+            android:hint="@string/editCNPJ"
+            android:inputType="number"
+            android:textColorHint="@color/black" />
+
+        <TextView android:id="@+id/txtRazaoSocial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/txtRazaoSocial"
+            android:textColor="@color/green" />
+
+        <EditText android:id="@+id/editRazaoSocial"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:ems="10"
+            android:hint="@string/editRazaoSocial"
+            android:inputType="text"
+            android:textColorHint="@color/black" />
+
+        <TextView android:id="@+id/txtDataAbertura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/txtDataAbertura"
+            android:textColor="@color/green" />
+
+        <EditText android:id="@+id/editDataAbertura"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:ems="10"
+            android:hint="@string/editDataAbertura"
+            android:inputType="date"
+            android:textColorHint="@color/black" />
+
+        <CheckBox android:id="@+id/ckSimplesNaciona"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:onClick="simplesNacional"
+            android:padding="9dp"
+            android:text="@string/ckSimplesNaciona"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <CheckBox android:id="@+id/ckMEI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:onClick="mei"
+            android:padding="9dp"
+            android:text="@string/ckMEI"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button android:id="@+id/btnSalvarContinuar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="16dp"
+            android:backgroundTint="@color/lightBlue"
+            android:text="@string/btnSalvarContinuar"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:baselineAligned="true"
+            android:orientation="horizontal">
+
+            <Button android:id="@+id/btnVoltar"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/lightBlue"
+                android:text="@string/btnVoltar"
+                android:textStyle="bold" />
+
+            <Button android:id="@+id/btnCancelar"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/lightBlue"
+                android:text="@string/btnCancelar"
+                android:textStyle="bold" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</ScrollView>

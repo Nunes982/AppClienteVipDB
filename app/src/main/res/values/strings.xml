@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">App Clientes Vip V2</string>
+    <string name="txt_titulo">Aplicativo do Anderson</string>
+    <string name="txt_data">06/10/2023</string>
+    <string name="txt_hora">14:00</string>
+
+    <!-- To layout Cadastro -->
+    <string name="btnCadastro">Cadastro de Novo Usuário</string>
+    <string name="btnVoltar">VOLTAR</string>
+    <string name="ckTermos">Li e concordo com os termos de uso.</string>
+    <string name="btnCadastrar">CADASTRAR</string>
+    <string name="editSenhaB">Confirme a senha digitada…</string>
+    <string name="txtSenhaB">Repita sua senha</string>
+    <string name="editSenhaA">Informe uma senha…</string>
+    <string name="txtSenhaA">Senha</string>
+    <string name="editEmail">Digite seu melhor e-mail…</string>
+    <string name="txtEmail">Email</string>
+    <string name="editNome">Digite seu primeiro nome…</string>
+    <string name="txtNome">Nome</string>
+    <string name="txtFinalizacaoCadastro">Credenciais de Acesso</string>
+
+    <!--Tela Login -->
+    <string name="txtLogin">Login</string>
+    <string name="editEmailLogin">Digite seu e-mail cadastrado…</string>
+    <string name="txtSenhaLogin">Senha</string>
+    <string name="editSenhaLogin">Digite sua senha de acesso…</string>
+    <string name="ckLembrarLogin">Lembrar</string>
+    <string name="txtRecuperarSenhaLogin">Recuperar Senha</string>
+    <string name="btnAcessarLogin">ACESSAR</string>
+    <string name="btnSejaVipLogin">SEJA VIP</string>
+    <string name="txtVersaoApp">Versão V1.0</string>
+    <string name="txtLerPolitica"><![CDATA[Ler Politica de Privacidade & Termos de Uso.]]></string>
+
+    <!-- tela novo cliente vip -->
+
+    <string name="txtNovoVip">Novo Vip</string>
+    <string name="txtPrimeiroNome">Primeiro Nome</string>
+    <string name="txtSobreNome">Sobre Nome</string>
+    <string name="txtHintSobreNome">Digite seu sobre nome...</string>
+    <string name="ckPessofisica">Pessoa Fisica</string>
+    <string name="btnSalvarContinuar">SALVAR E CONTINUAR</string>
+    <string name="btnCancelar">CANCELAR</string>
+
+    <!-- tela cliente pessoa fisica-->
+    <string name="txtPessoaFisica">Pessoa Física</string>
+    <string name="txtCPF">CPF</string>
+    <string name="editCPF">Digite seu CPF...</string>
+    <string name="txtNomeCompleto">Pessoa Física</string>
+    <string name="editNomeCompleto">Nome completo igual no CPF...</string>
+    <string name="btnSalvarConcluir">SALVAR E CONCLUIR</string>
+
+    <!-- tela cliente pessoa juridica-->
+    <string name="txtPessoaJuridica">Pessoa Juridica</string>
+    <string name="txtCNPJ">CNPJ</string>
+    <string name="editCNPJ">Digite seu CNPJ...</string>
+    <string name="txtRazaoSocial">Razão Social</string>
+    <string name="editRazaoSocial">Razão Social igual no CNPJ...</string>
+    <string name="txtDataAbertura">Data de Abertura da Empresa</string>
+    <string name="editDataAbertura">dd/mm/aaaa</string>
+    <string name="ckSimplesNaciona">Simples Nacional</string>
+    <string name="ckMEI">MEI</string>
+
+    <!-- tela recuperar senha -->
+
+    <string name="txtRecuperarSenha">Recuperar Senha</string>
+    <string name="txtEmailRecuperarSenha">E-mail</string>
+    <string name="editEmailRecuperarSenha">Digite o e-mail cadastrado...</string>
+    <string name="btnRecuperarSenha">Recuperar</string>
+    <string name="btnMeusDados">MEUS DADOS</string>
+    <string name="btnAtualizarMeusDados">ATUALIZAR MEUS DADOS</string>
+    <string name="btnExcluirMinhaConta">EXCLUIR MINHA CONTA</string>
+    <string name="btnConsultarClientesVip">CONSULTAR CLIENTES VIP</string>
+    <string name="btnSairDoAplicativo">SAIR DO APLICATIVO</string>
+    <string name="txtCliente">Cliente</string>
+
+
+</resources>

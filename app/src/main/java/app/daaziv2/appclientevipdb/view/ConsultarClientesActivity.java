@@ -11,6 +11,7 @@ import java.util.List;
 
 import app.daaziv2.appclientevipdb.R;
 import app.daaziv2.appclientevipdb.api.ClienteAdapter;
+import app.daaziv2.appclientevipdb.controler.ClienteController;
 import app.daaziv2.appclientevipdb.model.Cliente;
 
 public class ConsultarClientesActivity extends AppCompatActivity {
@@ -21,6 +22,8 @@ public class ConsultarClientesActivity extends AppCompatActivity {
 
     Cliente obj;
 
+    ClienteController controller;
+
     RecyclerView rvClienteVip;
 
     @Override
@@ -30,9 +33,11 @@ public class ConsultarClientesActivity extends AppCompatActivity {
 
         rvClienteVip = findViewById(R.id.rvClientesVip);
 
-        clientes = new ArrayList<>();
+        controller = new ClienteController(getApplicationContext());
 
-        for (int i = 0; i < 50; i++) {
+        clientes = controller.listar();
+
+        /*for (int i = 0; i < 50; i++) {
 
            obj = new Cliente();
 
@@ -41,7 +46,7 @@ public class ConsultarClientesActivity extends AppCompatActivity {
 
            clientes.add(obj);
 
-        }
+        }*/
 
         adapter = new ClienteAdapter(clientes, getApplicationContext());
 

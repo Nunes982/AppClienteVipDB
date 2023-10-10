@@ -44,8 +44,10 @@ public class ClienteDataModel {
         query += EMAIL+" TEXT, ";
         query += SENHA+" TEXT, ";
         query += PESSOA_FISICA+" INTEGER, ";
-        query += DATA_INC+" TEXT, ";
-        query += DATA_ALT+" TEXT ";
+        query += DATA_INC+" datetime default current_timestamp, ";
+        query += DATA_ALT+" datetime default current_timestamp ";
+
+        //datetime default current_timestamp
 
         query += ")";
 

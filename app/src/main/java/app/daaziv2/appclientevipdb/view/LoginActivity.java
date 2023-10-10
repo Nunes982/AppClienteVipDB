@@ -15,9 +15,6 @@ import android.widget.Toast;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
-
-import java.util.List;
-
 import app.daaziv2.appclientevipdb.R;
 import app.daaziv2.appclientevipdb.api.AppUtil;
 import app.daaziv2.appclientevipdb.controler.ClienteController;
@@ -170,10 +167,19 @@ public class LoginActivity extends AppCompatActivity {
 
         cliente = new Cliente();
 
-        controller.incluir(cliente);
-        controller.alterar(cliente);
+
+        cliente.setId(20);
+//            cliente.setPrimeiroNome("Nome "+i);
+//            cliente.setSobreNome("Sobre nome "+i);
+//            cliente.setEmail(i+"@teste.com");
+//            cliente.setSenha(i+"_12345");
+//            cliente.setPessoaFisica(false);
+
+        //controller.incluir(cliente);
+        //controller.alterar(cliente);
         controller.deletar(cliente);
-        List<Cliente> clientes = controller.listar();
+
+        //List<Cliente> clientes = controller.listar();
 
         restaurarSharedPreferences();
 
